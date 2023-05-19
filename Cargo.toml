@@ -1,12 +1,12 @@
 [package]
 name = "debox-open-sdk"
-version = "0.3.0"
+version = "0.5.0"
 edition = "2021"
 description = "the programming interface of Debox social chat service (Chat Service) API"
 keywords = ["Debox", "SDK", "ChatService"]
 categories = ["debox-open-api-example"]
 repository = "https://github.com/DeBoxLove/debox-open-rust"
-documentation = "https://docs.rs/debox-open-api"
+documentation = "https://docs.rs/debox-open-sdk"
 authors = ["eng-cc"]
 readme = "README.md"
 license = "MIT OR Apache-2.0"
