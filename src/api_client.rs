@@ -40,7 +40,7 @@ impl Client {
             code: res_value["code"].as_u64().unwrap() as u32,
             data: res_value["data"].clone(),
             message: res_value["message"].as_str().unwrap().to_string(),
-            success: res_value["success"].as_bool().unwrap(),
+            success: res_value["success"].as_bool().unwrap_or_default(),
         };
         Ok(res)
     }
@@ -57,7 +57,7 @@ impl Client {
             code: res_value["code"].as_u64().unwrap() as u32,
             data: res_value["data"].clone(),
             message: res_value["message"].as_str().unwrap().to_string(),
-            success: res_value["success"].as_bool().unwrap(),
+            success: res_value["success"].as_bool().unwrap_or_default(),
         };
         Ok(res)
     }
